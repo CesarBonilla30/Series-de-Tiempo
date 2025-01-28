@@ -1,1 +1,20 @@
-<h1>   Series de tiempo con el producto interno bruto real                      </h1>
+# Mi script Python
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados de Python</title>
+</head>
+<body>
+    <h1>¡Hola desde Python!</h1>
+    <p>Este archivo fue generado con Python.</p>
+</body>
+</html>
+"""
+
+# Guardar como archivo HTML
+with open("index.html", "w") as file:
+    file.write(html_content)
+
+print("Archivo index.html generado.")
+
